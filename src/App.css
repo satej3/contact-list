@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  /* margin-left: 10%; */
+}
+
+.card{
+  width: calc(30% - 20px);
+  margin: 2%;
+  /* background-color: rgb(129, 140, 153) !important; */
+  background-color: rgb(186, 192, 199) !important;
+}
+
+.card button{
+  margin: 10px;
+  text-align: center;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.update-btn{
+  background-color: rgb(26, 131, 40);
+}
+
+.delete-btn{
+  background-color: rgb(250, 36, 36);;
+}
+
+.form{
+  text-align: center;
+}
+
+.form input{
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 400px;
+  margin: 10px;
+  font-size: 18px;
+}
+
+.form button{
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
